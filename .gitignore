@@ -1,0 +1,9 @@
+﻿################################################################################
+# Bu .gitignore dosyası Microsoft(R) Visual Studio tarafından otomatik olarak oluşturulmuştur.
+################################################################################
+
+/.vs/reactfront/config
+/.vs/reactfront/CopilotIndices/17.12.38.29086
+/.vs/reactfront/FileContentIndex
+/.vs/reactfront/v17
+/.vs
