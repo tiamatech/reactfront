@@ -1,0 +1,82 @@
+{
+  "factoryMetrics": {
+    "realtime": {
+      "temperature": 24.5,
+      "humidity": 45,
+      "pressure": 1013,
+      "noise": 65,
+      "airQuality": 92,
+      "energyConsumption": 450.8,
+      "productionRate": 157,
+      "machineEfficiency": 94.5,
+      "workforceUtilization": 87.2
+    },
+    "historical": [
+      {
+        "timestamp": "2024-02-20T08:00:00",
+        "metrics": {
+          "temperature": 23.5,
+          "humidity": 44,
+          "pressure": 1012,
+          "noise": 63,
+          "airQuality": 95,
+          "energyConsumption": 445.2,
+          "productionRate": 155,
+          "machineEfficiency": 95.1,
+          "workforceUtilization": 86.8
+        }
+      }
+    ]
+  },
+  "machines": [
+    {
+      "id": "M001",
+      "name": "Assembly Line A",
+      "type": "Assembly",
+      "status": "active",
+      "maintenance": {
+        "lastCheck": "2024-02-15",
+        "nextScheduled": "2024-03-15",
+        "healthScore": 92
+      },
+      "metrics": {
+        "uptime": 98.5,
+        "efficiency": 94.2,
+        "temperature": 35.2
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "id": "A001",
+      "type": "warning",
+      "message": "High temperature detected in Assembly Line A",
+      "timestamp": "2024-02-20T10:15:00",
+      "status": "active",
+      "priority": "medium"
+    }
+  ],
+  "maintenance": {
+    "scheduled": [
+      {
+        "id": "M001",
+        "machineId": "M001",
+        "date": "2024-03-15",
+        "type": "preventive",
+        "description": "Regular maintenance check",
+        "status": "scheduled"
+      }
+    ],
+    "history": [
+      {
+        "id": "MH001",
+        "machineId": "M001",
+        "date": "2024-02-15",
+        "type": "preventive",
+        "description": "Regular maintenance performed",
+        "status": "completed",
+        "findings": "All systems normal"
+      }
+    ]
+  }
+}
