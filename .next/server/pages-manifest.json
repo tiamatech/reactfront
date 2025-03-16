@@ -1,0 +1,20 @@
+{
+  "/_document": "pages/_document.js",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/ClientTestimonials": "pages/ClientTestimonials.html",
+  "/about": "pages/about.html",
+  "/404": "pages/404.html",
+  "/OurApproach": "pages/OurApproach.html",
+  "/api/metrics/[factoryId]": "pages/api/metrics/[factoryId].js",
+  "/api/contact": "pages/api/contact.js",
+  "/careers": "pages/careers.html",
+  "/contact": "pages/contact.html",
+  "/enterprise-demo": "pages/enterprise-demo.html",
+  "/faq": "pages/faq.html",
+  "/": "pages/index.html",
+  "/inovations": "pages/inovations.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/products-services": "pages/products-services.html",
+  "/terms-of-service": "pages/terms-of-service.html"
+}
